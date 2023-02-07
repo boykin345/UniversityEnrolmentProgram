@@ -1,4 +1,4 @@
-##**JOEBEN DAVIS**
+**JOEBEN DAVIS**
 
 **Email:** [efyjd8@nottingham.ac.uk](efyjd8@nottingham.ac.uk)
 
