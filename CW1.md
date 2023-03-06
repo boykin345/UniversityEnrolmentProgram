@@ -11,5 +11,5 @@
 6. As a user, I want to be able to set reminders for upcoming bills and expenses so that I don't accidentally overspend and miss payments.
 7. As a user, I want to be able to view how much money I have left each month for fun and casual spending so that I can avoid overspending and ensure I have enough for necessary expenses.\
 
-*Use Case Diagram*
+*Use Case Diagram*\
 ![1234](assets/CW1__UCD_.jpg)
