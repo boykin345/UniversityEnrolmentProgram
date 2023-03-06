@@ -2,7 +2,7 @@
 *Textual Analysis*
 ![123](assets/IMAGE_2023-02-28_17_16_12.jpg)
 
-*Set of User Stories*\
+*Set of User Stories*
 1. As a user, I want to be able to connect my bank account to the app so that I can view my account information and transaction history.
 2. As a user, I want to be able to view my spending totals by category (e.g. car, clothing) so that I can better understand my overall spending patterns.
 3. As a user, I want to be able to set average or usual costs for variable expenses (e.g. phone bill) so that I can better plan my monthly budget.
