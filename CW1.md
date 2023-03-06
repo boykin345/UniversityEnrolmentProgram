@@ -1,4 +1,4 @@
-**Coursework 1**\
+**Coursework 1**
 
 *Textual Analysis*
 
@@ -16,7 +16,7 @@
 
 So, set of user stories more look like requirements and describe what exactly users want out of this app. Those stories could help to identify what gaps could be missed and what needs more attention. The main questions here is this app going to be delevoped for smartphones or PCs or both at the same time. Overall, user stories are a useful tool for ensuring that the app is designed with the user in mind and that it meets their needs and expectations.
 
-*Use Case Diagram*\
+*Use Case Diagram*
 
 ![1234](assets/CW1__UCD_.jpg)
 
