@@ -23,4 +23,4 @@ So, set of user stories more look like requirements and describe what exactly us
 
 ![1234](assets/CW1__UCD_.jpg)
 
-
+![12345](assets/Lo-Fi_Prototype.png)
