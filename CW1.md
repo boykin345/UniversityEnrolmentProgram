@@ -26,7 +26,8 @@ So, set of user stories more look like requirements and describe what exactly us
 
 This Use Case diagram helps visualize specification and organize various use cases. Different cases can show what interactions user will do to interact with system. It also helps to identify some features that will be neeeded to be implemented. With this diagram it possible to imagine different scenarios that impossible without it.
 
-*Lo-Fi Prototype* (By Mikhail)
+*Lo-Fi Prototype*
+(By Mikhail)
 
 ![12345](assets/Lo-Fi_Prototype.png)
 
