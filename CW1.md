@@ -11,5 +11,9 @@
 6. As a user, I want to be able to set reminders for upcoming bills and expenses so that I don't accidentally overspend and miss payments.
 7. As a user, I want to be able to view how much money I have left each month for fun and casual spending so that I can avoid overspending and ensure I have enough for necessary expenses.\
 
+So, set of user stories more look like requirements and describe what exactly users want out of this app. Those stories could help to identify what gaps could be missed and what needs more attention. The main questions here is this app going to be delevoped for smartphones or PCs or both at the same time. Overall, user stories are a useful tool for ensuring that the app is designed with the user in mind and that it meets their needs and expectations.
+
 *Use Case Diagram*\
 ![1234](assets/CW1__UCD_.jpg)
+
+
