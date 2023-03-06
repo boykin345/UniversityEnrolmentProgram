@@ -1,6 +1,6 @@
 **Coursework 1**\
 *Textual Analysis*
-![123](assets/IMAGE_2023-02-28_17_16_12.jpg)\
+![123](assets/IMAGE_2023-02-28_17_16_12.jpg)
 
 *Set of User Stories*\
 1. As a user, I want to be able to connect my bank account to the app so that I can view my account information and transaction history.
