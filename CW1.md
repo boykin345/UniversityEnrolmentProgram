@@ -25,10 +25,9 @@ So, set of user stories more look like requirements and describe what exactly us
 
 This Use Case diagram helps visualize specification and organize various use cases. Different cases can show what interactions user will do to interact with system. It also helps to identify some features that will be neeeded to be implemented. With this diagram it possible to imagine different scenarios that impossible without it.
 
-*Lo-Fi Prototype* 
+*Lo-Fi Prototype* (By Mikhail)
 
 ![12345](assets/Lo-Fi_Prototype.png)
-(By Mikhail)
 
 If this app is gonna be implemented, it will require different permissions from the bank and users at the same time. Also, it needs to have secure encryptment system to provide safety for users. The app will enable users to see totals for different categories and types of expenses, such as fixed or unpredictable expenses. Besides, app will allow users to track their monthly bills and set an average or usual cost for variable bills.
 
