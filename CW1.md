@@ -3,8 +3,10 @@
 *Textual Analysis*
 
 ![123](assets/IMAGE_2023-02-28_17_16_12.jpg)
+(By Mikhail)
 
 *Set of User Stories*
+(By Mikhail)
 
 1. As a user, I want to be able to connect my bank account to the app so that I can view my account information and transaction history.
 2. As a user, I want to be able to view my spending totals by category (e.g. car, clothing) so that I can better understand my overall spending patterns.
@@ -17,6 +19,7 @@
 So, set of user stories more look like requirements and describe what exactly users want out of this app. Those stories could help to identify what gaps could be missed and what needs more attention. The main questions here is this app going to be delevoped for smartphones or PCs or both at the same time. Overall, user stories are a useful tool for ensuring that the app is designed with the user in mind and that it meets their needs and expectations.
 
 *Use Case Diagram*
+(By Mikhail)
 
 ![1234](assets/CW1__UCD_.jpg)
 
