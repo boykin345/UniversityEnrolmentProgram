@@ -1,13 +1,13 @@
 **Coursework 1**
 
 *Textual Analysis*
-(By Mikhail)
+(By Mikhail kolyakin)
 
 ![TA](assets/IMAGE_2023-02-28_17_16_12.jpg)
 
 
 *Set of User Stories*
-(By Mikhail)
+(By Mikhail Kolyakin)
 
 1. As a user, I want to be able to connect my bank account to the app so that I can view my account information and transaction history.
 2. As a user, I want to be able to view my spending totals by category (e.g. car, clothing) so that I can better understand my overall spending patterns.
@@ -20,14 +20,14 @@
 So, set of user stories more look like requirements and describe what exactly users want out of this app. Those stories could help to identify what gaps could be missed and what needs more attention. The main questions here is this app going to be delevoped for smartphones or PCs or both at the same time. Overall, user stories are a useful tool for ensuring that the app is designed with the user in mind and that it meets their needs and expectations.
 
 *Use Case Diagram*
-(By Mikhail)
+(By Mikhail Kolyakin)
 
 ![UCD](assets/CW1__UCD_.jpg)
 
 This Use Case diagram helps visualize specification and organize various use cases. Different cases can show what interactions user will do to interact with system. It also helps to identify some features that will be neeeded to be implemented. With this diagram it possible to imagine different scenarios that impossible without it.
 
 *Possible Lo-Fi Prototype*
-(By Mikhail)
+(By Mikhail Kolyakin)
 
 ![LofiProt](assets/Lo-Fi_Prototype.png)
 
@@ -46,7 +46,7 @@ From these personas we can see the value of focusing on the usability of the app
 
 The reason we chose to use this diagram is because it's perfect for getting a better understanding of the end user, and ironing out edge cases a developer might forget about when developing the program with themselves in mind.
 
-State diagram(made by Omar Taher): 
+State diagram(By Omar Taher): 
 
 [SD](assets/State_Diagram.jpg)
 
