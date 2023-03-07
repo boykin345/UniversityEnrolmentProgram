@@ -47,6 +47,9 @@ From these personas we can see the value of focusing on the usability of the app
 The reason we chose to use this diagram is because it's perfect for getting a better understanding of the end user, and ironing out edge cases a developer might forget about when developing the program with themselves in mind.
 
 State diagram(made by Omar Taher): 
+
+[SD](assets/State_Diagram.jpg)
+
 Welcome state: This is the initial state of the app. The user can choose to sign in or create a new account.
 
 Sign in transition: When the user selects the sign in option, the app transitions to the "Log in" state.
