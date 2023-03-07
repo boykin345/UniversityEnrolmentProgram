@@ -3,7 +3,7 @@
 *Textual Analysis*
 (By Mikhail)
 
-![123](assets/IMAGE_2023-02-28_17_16_12.jpg)
+![TA](assets/IMAGE_2023-02-28_17_16_12.jpg)
 
 
 *Set of User Stories*
@@ -22,25 +22,25 @@ So, set of user stories more look like requirements and describe what exactly us
 *Use Case Diagram*
 (By Mikhail)
 
-![1234](assets/CW1__UCD_.jpg)
+![UCD](assets/CW1__UCD_.jpg)
 
 This Use Case diagram helps visualize specification and organize various use cases. Different cases can show what interactions user will do to interact with system. It also helps to identify some features that will be neeeded to be implemented. With this diagram it possible to imagine different scenarios that impossible without it.
 
 *Possible Lo-Fi Prototype*
 (By Mikhail)
 
-![12345](assets/Lo-Fi_Prototype.png)
+![LofiProt](assets/Lo-Fi_Prototype.png)
 
 If this app is gonna be implemented, it will require different permissions from the bank and users at the same time. Also, it needs to have secure encryptment system to provide safety for users. The app will enable users to see totals for different categories and types of expenses, such as fixed or unpredictable expenses. Besides, app will allow users to track their monthly bills and set an average or usual cost for variable bills.
 
 *Personas Diagram*
 (By Harry Brown)
 
-![123456](assets/Screenshot_2023-03-07_144339.png)
+![Persona1](main/assets/Screenshot_2023-03-07_161109.png)
 
-![1234567]()
+![Persona2](assets/Screenshot_2023-03-07_161142.png)
 
-![12345678]()
+![Persona3](assets/Screenshot_2023-03-07_161210.png)
 
 Possible Questions:
 - How app will provide security of users' data?
