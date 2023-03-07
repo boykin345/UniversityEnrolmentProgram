@@ -77,6 +77,8 @@ Sequential diagram(By Abdulaziz Sarkhoh)
 
 ![SeqDiag](assets/diagram.jpg)
 
+
+
 Possible Questions:
 - How app will provide security of users' data?
 - How app gonna notify users about upcoming payments?
