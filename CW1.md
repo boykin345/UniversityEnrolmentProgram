@@ -79,6 +79,12 @@ Sequential diagram(By Abdulaziz Sarkhoh)
 
 ![SeqDiag](assets/diagram.jpg)
 
+*Possible Lo-Fi Prototype*
+(By Mikhail Kolyakin)
+
+![LofiProt](assets/Lo-Fi_Prototype.png)
+
+If this app is gonna be implemented, it will require different permissions from the bank and users at the same time. Also, it needs to have secure encryptment system to provide safety for users. The app will enable users to see totals for different categories and types of expenses, such as fixed or unpredictable expenses. Besides, app will allow users to track their monthly bills and set an average or usual cost for variable bills.
 
 
 Possible Questions:
