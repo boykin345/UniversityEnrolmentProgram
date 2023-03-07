@@ -67,7 +67,8 @@ Categories state: The user can view their categories and set up new categories. 
 
 This Use Case diagram helps visualize specification and organize various use cases. Different cases can show what interactions user will do to interact with system. It also helps to identify some features that will be neeeded to be implemented. With this diagram it possible to imagine different scenarios that impossible without it.
 
-Sequential diagram(By Abdulaziz Sarkhoh)
+*Sequential diagram*
+(By Abdulaziz Sarkhoh)
 
 ![SeqDiag](assets/diagram.jpg)
 
