@@ -36,7 +36,7 @@ If this app is gonna be implemented, it will require different permissions from 
 *Personas Diagram*
 (By Harry Brown)
 
-![Persona1](main/assets/Screenshot_2023-03-07_161109.png)
+![Persona1](assets/Screenshot_2023-03-07_161109.png)
 
 ![Persona2](assets/Screenshot_2023-03-07_161142.png)
 
