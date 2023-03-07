@@ -33,6 +33,10 @@ This Use Case diagram helps visualize specification and organize various use cas
 
 If this app is gonna be implemented, it will require different permissions from the bank and users at the same time. Also, it needs to have secure encryptment system to provide safety for users. The app will enable users to see totals for different categories and types of expenses, such as fixed or unpredictable expenses. Besides, app will allow users to track their monthly bills and set an average or usual cost for variable bills.
 
+*Personas Diagram*(By Harry Brown)
+
+![123456](assets/Screenshot_2023-03-07_144339.png)
+
 Possible Questions:
 - How app will provide security of users' data?
 - How app gonna notify users about upcoming payments?
