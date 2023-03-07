@@ -1,11 +1,11 @@
 # Coursework 1
 
-*Textual Analysis*
+## Textual Analysis
 (By Mikhail Kolyakin)
 
 ![TA](assets/IMAGE_2023-02-28_17_16_12.jpg)
 
-*Set of User Stories*
+## Set of User Stories
 (By Mikhail Kolyakin)
 
 1. As a user, I want to be able to connect my bank account to the app so that I can view my account information and transaction history.
@@ -18,7 +18,7 @@
 
 So, set of user stories more look like requirements and describe what exactly users want out of this app. Those stories could help to identify what gaps could be missed and what needs more attention. The main questions here is this app going to be delevoped for smartphones or PCs or both at the same time. Overall, user stories are a useful tool for ensuring that the app is designed with the user in mind and that it meets their needs and expectations.
 
-*Personas Diagram*
+## Personas Diagram
 (By Harry Brown)
 
 ![Persona1](assets/Screenshot_2023-03-07_161109.png)
@@ -31,7 +31,8 @@ From these personas we can see the value of focusing on the usability of the app
 
 The reason we chose to use this diagram is because it's perfect for getting a better understanding of the end user, and ironing out edge cases a developer might forget about when developing the program with themselves in mind.
 
-State diagram(By Omar Taher): 
+## State diagram
+(By Omar Taher)
 
 ![SD](assets/State_Diagram.jpg)
 
@@ -60,19 +61,19 @@ Transactions state: The user can view their transaction history, categorize tran
 
 Categories state: The user can view their categories and set up new categories. From here, the user can navigate to different sections of the app or return to the "Dashboard" state.
 
-*Use Case Diagram*
+## Use Case Diagram
 (By Mikhail Kolyakin)
 
 ![UCD](assets/CW1__UCD_.jpg)
 
 This Use Case diagram helps visualize specification and organize various use cases. Different cases can show what interactions user will do to interact with system. It also helps to identify some features that will be neeeded to be implemented. With this diagram it possible to imagine different scenarios that impossible without it.
 
-*Sequential diagram*
+## Sequential diagram
 (By Abdulaziz Sarkhoh)
 
 ![SeqDiag](assets/diagram.jpg)
 
-*Possible Lo-Fi Prototype*
+## Possible Lo-Fi Prototype
 (By Mikhail Kolyakin)
 
 ![LofiProt](assets/Lo-Fi_Prototype.png)
@@ -80,7 +81,7 @@ This Use Case diagram helps visualize specification and organize various use cas
 If this app is gonna be implemented, it will require different permissions from the bank and users at the same time. Also, it needs to have secure encryptment system to provide safety for users. The app will enable users to see totals for different categories and types of expenses, such as fixed or unpredictable expenses. Besides, app will allow users to track their monthly bills and set an average or usual cost for variable bills.
 
 
-Possible Questions:
+## Possible Questions:
 - How app will provide security of users' data?
 - How app gonna notify users about upcoming payments?
 - Will app require to enter into it for each bank account they want to link?
