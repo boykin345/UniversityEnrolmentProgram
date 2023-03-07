@@ -46,6 +46,30 @@ From these personas we can see the value of focusing on the usability of the app
 
 The reason we chose to use this diagram is because it's perfect for getting a better understanding of the end user, and ironing out edge cases a developer might forget about when developing the program with themselves in mind.
 
+State diagram(made by Omar Taher): 
+Welcome state: This is the initial state of the app. The user can choose to sign in or create a new account.
+
+Sign in transition: When the user selects the sign in option, the app transitions to the "Log in" state.
+
+Create account transition: When the user selects the create account option, the app transitions to the "Create account" state.
+
+Log in state: The user enters their login details and the app checks the database for the matching user account. If the login details are correct, the app transitions to the "Dashboard" state. If the login details are incorrect, the app displays an error message and remains in the "Log in" state.
+
+Create account state: The user enters their personal details and sets up their account preferences. Once the account is created, the app transitions to the "Dashboard" state. 
+Dashboard state: This is the main state of the app where the user can view their financial information. From here, the user can navigate to different sections of the app.
+
+Accounts transition: When the user selects the accounts option, the app transitions to the "Accounts" state.
+
+Transactions transition: When the user selects the transactions option, the app transitions to the "Transactions" state.
+
+Categories transition: When the user selects the categories option, the app transitions to the "Categories" state.
+
+Accounts state: The user can view their account information, such as the account balance, scheduled payments, and available funds. From here, the user can navigate to different sections of the app or return to the "Dashboard" state.
+
+Transactions state: The user can view their transaction history, categorize transactions, and create new transactions. From here, the user can navigate to different sections of the app or return to the "Dashboard" state.
+
+Categories state: The user can view their categories and set up new categories. From here, the user can navigate to different sections of the app or return to the "Dashboard" state.
+
 Possible Questions:
 - How app will provide security of users' data?
 - How app gonna notify users about upcoming payments?
