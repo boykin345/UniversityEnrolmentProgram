@@ -5,7 +5,6 @@
 
 ![TA](assets/IMAGE_2023-02-28_17_16_12.jpg)
 
-
 *Set of User Stories*
 (By Mikhail Kolyakin)
 
@@ -18,20 +17,6 @@
 7. As a user, I want to be able to view how much money I have left each month for fun and casual spending so that I can avoid overspending and ensure I have enough for necessary expenses.
 
 So, set of user stories more look like requirements and describe what exactly users want out of this app. Those stories could help to identify what gaps could be missed and what needs more attention. The main questions here is this app going to be delevoped for smartphones or PCs or both at the same time. Overall, user stories are a useful tool for ensuring that the app is designed with the user in mind and that it meets their needs and expectations.
-
-*Use Case Diagram*
-(By Mikhail Kolyakin)
-
-![UCD](assets/CW1__UCD_.jpg)
-
-This Use Case diagram helps visualize specification and organize various use cases. Different cases can show what interactions user will do to interact with system. It also helps to identify some features that will be neeeded to be implemented. With this diagram it possible to imagine different scenarios that impossible without it.
-
-*Possible Lo-Fi Prototype*
-(By Mikhail Kolyakin)
-
-![LofiProt](assets/Lo-Fi_Prototype.png)
-
-If this app is gonna be implemented, it will require different permissions from the bank and users at the same time. Also, it needs to have secure encryptment system to provide safety for users. The app will enable users to see totals for different categories and types of expenses, such as fixed or unpredictable expenses. Besides, app will allow users to track their monthly bills and set an average or usual cost for variable bills.
 
 *Personas Diagram*
 (By Harry Brown)
@@ -74,6 +59,13 @@ Accounts state: The user can view their account information, such as the account
 Transactions state: The user can view their transaction history, categorize transactions, and create new transactions. From here, the user can navigate to different sections of the app or return to the "Dashboard" state.
 
 Categories state: The user can view their categories and set up new categories. From here, the user can navigate to different sections of the app or return to the "Dashboard" state.
+
+*Use Case Diagram*
+(By Mikhail Kolyakin)
+
+![UCD](assets/CW1__UCD_.jpg)
+
+This Use Case diagram helps visualize specification and organize various use cases. Different cases can show what interactions user will do to interact with system. It also helps to identify some features that will be neeeded to be implemented. With this diagram it possible to imagine different scenarios that impossible without it.
 
 Sequential diagram(By Abdulaziz Sarkhoh)
 
