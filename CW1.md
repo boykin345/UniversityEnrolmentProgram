@@ -1,4 +1,4 @@
-**Coursework 1**
+# Coursework 1
 
 *Textual Analysis*
 (By Mikhail Kolyakin)
