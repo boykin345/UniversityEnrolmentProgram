@@ -38,6 +38,10 @@ If this app is gonna be implemented, it will require different permissions from 
 
 ![123456](assets/Screenshot_2023-03-07_144339.png)
 
+![1234567](assets/Screenshot_2023-03-07_144408.png)
+
+![12345678]()
+
 Possible Questions:
 - How app will provide security of users' data?
 - How app gonna notify users about upcoming payments?
