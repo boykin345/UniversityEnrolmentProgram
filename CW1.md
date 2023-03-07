@@ -48,7 +48,7 @@ The reason we chose to use this diagram is because it's perfect for getting a be
 
 State diagram(By Omar Taher): 
 
-[SD](assets/State_Diagram.jpg)
+![SD](assets/State_Diagram.jpg)
 
 Welcome state: This is the initial state of the app. The user can choose to sign in or create a new account.
 
@@ -75,7 +75,7 @@ Categories state: The user can view their categories and set up new categories. 
 
 Sequential diagram(By Abdulaziz Sarkhoh)
 
-[SeqDiag](assets/diagram.jpg)
+![SeqDiag](assets/diagram.jpg)
 
 Possible Questions:
 - How app will provide security of users' data?
