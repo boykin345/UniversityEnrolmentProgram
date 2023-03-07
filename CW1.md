@@ -73,6 +73,10 @@ Transactions state: The user can view their transaction history, categorize tran
 
 Categories state: The user can view their categories and set up new categories. From here, the user can navigate to different sections of the app or return to the "Dashboard" state.
 
+Sequential diagram(By Abdulaziz Sarkhoh)
+
+[SeqDiag](assets/diagram.jpg)
+
 Possible Questions:
 - How app will provide security of users' data?
 - How app gonna notify users about upcoming payments?
