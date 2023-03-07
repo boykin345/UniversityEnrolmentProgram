@@ -50,6 +50,8 @@ State diagram(By Omar Taher):
 
 ![SD](assets/State_Diagram.jpg)
 
+The state diagram was chosen due to the view point taken was taken as a user-app basis so the state diagram changes due to the users choices from startup to end.
+
 Welcome state: This is the initial state of the app. The user can choose to sign in or create a new account.
 
 Sign in transition: When the user selects the sign in option, the app transitions to the "Log in" state.
