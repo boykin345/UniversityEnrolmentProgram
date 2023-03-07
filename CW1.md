@@ -38,28 +38,29 @@ The reason we chose to use this diagram is because it's perfect for getting a be
 
 The state diagram was chosen due to the view point taken was taken as a user-app basis so the state diagram changes due to the users choices from startup to end.
 
-Welcome state: This is the initial state of the app. The user can choose to sign in or create a new account.
+**Welcome state**: This is the initial state of the app. The user can choose to sign in or create a new account.
 
-Sign in transition: When the user selects the sign in option, the app transitions to the "Log in" state.
+**Sign in transition**: When the user selects the sign in option, the app transitions to the "Log in" state.
 
-Create account transition: When the user selects the create account option, the app transitions to the "Create account" state.
+**Create account transition**: When the user selects the create account option, the app transitions to the "Create account" state.
 
-Log in state: The user enters their login details and the app checks the database for the matching user account. If the login details are correct, the app transitions to the "Dashboard" state. If the login details are incorrect, the app displays an error message and remains in the "Log in" state.
+**Log in state**: The user enters their login details and the app checks the database for the matching user account. If the login details are correct, the app transitions to the "Dashboard" state. If the login details are incorrect, the app displays an error message and remains in the "Log in" state.
 
-Create account state: The user enters their personal details and sets up their account preferences. Once the account is created, the app transitions to the "Dashboard" state. 
-Dashboard state: This is the main state of the app where the user can view their financial information. From here, the user can navigate to different sections of the app.
+**Create account state**: The user enters their personal details and sets up their account preferences. Once the account is created, the app transitions to the "Dashboard" state. 
 
-Accounts transition: When the user selects the accounts option, the app transitions to the "Accounts" state.
+**Dashboard state**: This is the main state of the app where the user can view their financial information. From here, the user can navigate to different sections of the app.
 
-Transactions transition: When the user selects the transactions option, the app transitions to the "Transactions" state.
+**Accounts transition**: When the user selects the accounts option, the app transitions to the "Accounts" state.
 
-Categories transition: When the user selects the categories option, the app transitions to the "Categories" state.
+**Transactions transition**: When the user selects the transactions option, the app transitions to the "Transactions" state.
 
-Accounts state: The user can view their account information, such as the account balance, scheduled payments, and available funds. From here, the user can navigate to different sections of the app or return to the "Dashboard" state.
+**Categories transition**: When the user selects the categories option, the app transitions to the "Categories" state.
 
-Transactions state: The user can view their transaction history, categorize transactions, and create new transactions. From here, the user can navigate to different sections of the app or return to the "Dashboard" state.
+**Accounts state**: The user can view their account information, such as the account balance, scheduled payments, and available funds. From here, the user can navigate to different sections of the app or return to the "Dashboard" state.
 
-Categories state: The user can view their categories and set up new categories. From here, the user can navigate to different sections of the app or return to the "Dashboard" state.
+**Transactions state**: The user can view their transaction history, categorize transactions, and create new transactions. From here, the user can navigate to different sections of the app or return to the "Dashboard" state.
+
+**Categories state**: The user can view their categories and set up new categories. From here, the user can navigate to different sections of the app or return to the "Dashboard" state.
 
 ## Use Case Diagram
 (By Mikhail Kolyakin)
