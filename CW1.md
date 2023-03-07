@@ -73,6 +73,8 @@ This Use Case diagram helps visualize specification and organize various use cas
 
 ![SeqDiag](assets/diagram.jpg)
 
+I chose to do the  sequence diagram because it’s more clear and less detailed than other diagrams it depends on headlines and main ideas which makes it less confusing and clearer to see what’s happening its easier to understand and it complements the sequence diagram to help better to plan the software
+
 ## Possible Lo-Fi Prototype
 (By Mikhail Kolyakin)
 
