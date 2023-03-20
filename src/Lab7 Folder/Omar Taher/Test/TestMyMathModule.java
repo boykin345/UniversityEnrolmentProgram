@@ -4,12 +4,17 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
+
+
+
 class TestMyMathModule {
-	
+
+
 	private static int input1;
 	private static int input2;
 	private static int input3;
-	
+
+
 	@BeforeAll
 	static void setup() {
 		input1 = 3;
@@ -18,24 +23,24 @@ class TestMyMathModule {
 	}
 	
 	@Test
-	void test1() {
-		int myanswer = 0;
-		try {
-			myanswer = MathModule.myMultiply(input1, input2);
-		} catch(Exception e) {
+		void test1() {
+			int myanswer = 0;
+			try {
+				myanswer = MathModule.myMultiply(input1, input2);
+		}	 catch(Exception e) {
 		}
-		assertEquals(18, myanswer);
+			assertEquals(18, myanswer);
 	}
-	void testError() {
-		int myanswer = 0;
-		try {
-			myanswer = MathModule.myMultiply(input2, input3);
-		} catch (Exception e) {
-			if (e.getClass()==Exception.class) {
-				return;
-			}
+		void testError() {
+			int myanswer = 0;
+			try {
+				myanswer = MathModule.myMultiply(input2, input3);
+			} catch (Exception e) {
+				if (e.getClass()==Exception.class) {
+					return;
+				}
 		}
-		fail("no error thrown, hashtag sadface");
+		fail("no error thrown, :(");
 	}
 	
 	@Disabled
