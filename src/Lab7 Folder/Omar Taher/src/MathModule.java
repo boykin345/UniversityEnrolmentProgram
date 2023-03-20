@@ -13,17 +13,18 @@ public class MathModule {
 	}
 
 	
-	public static int myMultiply(int firstNum, int secondNum){
-		long newAnswer = (long)firstNum*secondNum;
-		if(newAnswer > Integer.MAX_VALUE) {
-			try {
-				throw new Exception("Number too big");
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+
+		public static int myMultiply(int firstNum, int secondNum){
+			long newAnswer = (long)firstNum*secondNum;
+			if(newAnswer > Integer.MAX_VALUE) {
+				try {
+					throw new Exception("Number too big");
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 			}
+			return firstNum*secondNum;
 		}
-		return firstNum*secondNum;
-	}
 }
 
