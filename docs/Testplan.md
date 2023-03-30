@@ -4,9 +4,9 @@
 |--------|
 |[Team Management](#team-management)|
 |[Test Plan](#test-plan)|
-|[Jump to Class:](#transaction-class)|
-|[Jump to Class:](#class)|
-|[Jump to Class:](#class)|
+|[Jump to Transaction class:](#transaction-class)|
+|[Jump to FloydsBank Category Class:](#floydsbank-category-class)|
+|[Jump to FBApp Main Class:](#fbapp-main-class)|
 
 
 ## Team Management
