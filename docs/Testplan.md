@@ -4,7 +4,7 @@
 |--------|
 |[Team Management](#team-management)|
 |[Test Plan](#test-plan)|
-|[Jump to Class:](#class)|
+|[Jump to Class:](#transaction-class)|
 |[Jump to Class:](#class)|
 |[Jump to Class:](#class)|
 
