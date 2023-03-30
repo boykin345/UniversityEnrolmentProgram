@@ -82,6 +82,7 @@ Report here, by the end of the assignment, how the team has managed the project,
 #### Remove Expense function Function:
 
 |Test|Inputs|Expected Outcome|
+|----|------|----------------|
 |#1|Enter a zero number|"Error, asks to rewrite value"|
 
 ### FBApp Main Class:
