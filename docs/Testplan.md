@@ -10,7 +10,6 @@
 
 
 ## Team Management
-Report here, by the end of the assignment, how the team has managed the project, e.g.: used version control, organised meetings, divided work, used labels, milestones, issues, etc. etc.
 For the deadline date there was created milestone named as Version 1.0, it is an end version of repository with Test plan. There was 1 issue with main method of FBApp Main Class and 1 merge request with main branch. At the time i write this as before almost everything was done by one person. So, there was almost no divided work and organised meetings.
 
 
