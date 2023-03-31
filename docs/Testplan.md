@@ -13,7 +13,6 @@
 Report here, by the end of the assignment, how the team has managed the project, e.g.: used version control, organised meetings, divided work, used labels, milestones, issues, etc. etc.
 
 ## Test Plan
-**You should add rows and even columns, and indeed more tables, freely as you think will improve the report.**
 
 ### Transaction Class:
 
@@ -99,16 +98,55 @@ Report here, by the end of the assignment, how the team has managed the project,
 
 ### FBApp Main Class:
 
-#### Function:
+#### Main Method Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-| | | |
-| | | |
+|#1|call each command|Each command works as needed|
+|#2|call two commands at the same time|"Error and re-offers options"|
+|#3|call list transactions for category that does not exist|"Error and re-offers options"|
+|#4|add transactions for category that does not exist|"Error and re-offers options"|
 
-#### Function:
+#### List Transactions Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-| | | |
-| | | |
+|#1|call it when there is no transactions in category|"Shows blank page"|
+|#2|call it when there is no transactions and no such category|"Error"|
+
+#### List Transactions Function:
+
+|Test|Inputs|Expected Outcome|
+|----|------|----------------|
+|#1|call it when there is no transactions in category|"Shows blank page"|
+|#2|call it when there is no transactions and no such category|"Error"|
+
+#### Category Overview Function:
+
+|Test|Inputs|Expected Outcome|
+|----|------|----------------|
+|#1|call it when there is no categories|"Shows blank page"|
+
+#### List Transactions in Category Function:
+
+|Test|Inputs|Expected Outcome|
+|----|------|----------------|
+|#1|Call it|"Works how was it planned"|
+
+#### List Transactions in Category Function:
+
+|Test|Inputs|Expected Outcome|
+|----|------|----------------|
+|#1|Assign some transaction to non-existent category|"Error"|
+
+#### Add Transaction Function:
+
+|Test|Inputs|Expected Outcome|
+|----|------|----------------|
+|#1|Enter each value, but in category write category which does not exist|"Error"|
+
+#### Add Category Function:
+
+|Test|Inputs|Expected Outcome|
+|----|------|----------------|
+|#1|Enter each value, but skip name value, do the same thing with other values|"Error"|
