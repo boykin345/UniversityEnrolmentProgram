@@ -21,45 +21,45 @@ For the deadline date there was created milestone named as Version 1.0, it is an
 
 |Test|Inputs|Expected Outcome|Actual Outcome|
 |----|------|----------------|--------------|
-|#1|Enter only two parameters|"Error or remembering only these two parameters"|"It is just impossible on a system level"|
+|#1|Enter only two parameters|Error or remembering only these two parameters|It is just impossible on a system level|
 
 #### Set Method Transaction Name Function:
 
 |Test|Inputs|Expected Outcome|Actual Outcome|
 |----|------|----------------|--------------|
-|#1|Special Symbols|"Error or giving wrong symbols in output"|"Simply sets a Transaction Name with those symbols"|
+|#1|Special Symbols|Error or giving wrong symbols in output|Simply sets a Transaction Name with those symbols|
 
 #### Set Method Transaction Value Function:
 
 |Test|Inputs|Expected Outcome|Actual Outcome|
 |----|------|----------------|--------------|
-|#1|Enter less than 0.01 cent|"Error"|"Remembers this number(Must be fixed)"|
+|#1|Enter less than 0.01 cent|Error|Remembers this number(Must be fixed)|
 
 #### Set Method Transaction Category Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|Enter less than 0|"Error, asks to rewrite transaction price"|
+|#1|Enter less than 0|Error, asks to rewrite transaction price|
 
 #### Get Method Transaction Time Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|Get time when it is a leap year|"Giving another year at the output"|
+|#1|Get time when it is a leap year|Giving another year at the output|
 
 #### isComplete() Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|Enter all three values(name,value,category)|"Outputs that everything is fine"|
+|#1|Enter all three values(name,value,category)|Outputs that everything is fine|
 
 #### toString()	override Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|Enter all three values(name,value,category)|"Converts every parameter to String variable type"|
+|#1|Enter all three values(name,value,category)|Converts every parameter to String variable type|
 
-### FloydsBank Category Class:
+### Category Class:
 
 #### Default Constructor Function:
 
@@ -77,25 +77,25 @@ For the deadline date there was created milestone named as Version 1.0, it is an
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|Enter numbers in the name|"Error, asks to rewrite name"|
+|#1|Enter negative number|Error, asks to rewrite name or even remebers it|
 
 #### Set Category Budget Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|Enter an integer|"Converts it to float number"|
+|#1|Enter an integer|Converts it to float number|
 
 #### Add Expense function Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|Enter a zero number|"Adds it, but does not add any value to current total spend for the category"|
+|#1|Enter a zero number|Adds it, but does not add any value to current total spend for the category|
 
 #### Remove Expense function Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|Enter a zero number|"Error, asks to rewrite value"|
+|#1|Enter a zero number|Error, asks to rewrite value|
 
 ### FBApp Main Class:
 
@@ -105,51 +105,51 @@ For the deadline date there was created milestone named as Version 1.0, it is an
 |----|------|----------------|
 |#1|call each command|Each command works as needed|
 |#2|call two commands at the same time|"Error and re-offers options"|
-|#3|call list transactions for category that does not exist|"Error and re-offers options"|
-|#4|add transactions for category that does not exist|"Error and re-offers options"|
+|#3|call list transactions for category that does not exist|Error and re-offers options|
+|#4|add transactions for category that does not exist|Error and re-offers options|
 
 #### List Transactions Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|call it when there is no transactions in category|"Shows blank page"|
-|#2|call it when there is no transactions and no such category|"Error"|
+|#1|call it when there is no transactions in category|Shows blank page|
+|#2|call it when there is no transactions and no such category|Error|
 
 #### List Transactions Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|call it when there is no transactions in category|"Shows blank page"|
-|#2|call it when there is no transactions and no such category|"Error"|
+|#1|call it when there is no transactions in category|Shows blank page|
+|#2|call it when there is no transactions and no such category|Error|
 
 #### Category Overview Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|call it when there is no categories|"Shows blank page"|
+|#1|call it when there is no categories|Shows blank page|
 
 #### List Transactions in Category Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|Call it|"Works how was it planned"|
+|#1|Call it|Works how was it planned|
 
 #### List Transactions in Category Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|Assign some transaction to non-existent category|"Error"|
+|#1|Assign some transaction to non-existent category|Error|
 
 #### Add Transaction Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|Enter each value, but in category write category which does not exist|"Error"|
+|#1|Enter each value, but in category write category which does not exist|Error|
 
 #### Add Category Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|Enter each value, but skip name value, do the same thing with other values|"Error"|
+|#1|Enter each value, but skip name value, do the same thing with other values|Error|
 
 (Whole Test Plan was made by Mikhail Kolyakin)
