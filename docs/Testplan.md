@@ -21,19 +21,19 @@ For the deadline date there was created milestone named as Version 1.0, it is an
 
 |Test|Inputs|Expected Outcome|Actual Outcome|
 |----|------|----------------|--------------|
-|#1|Enter only two parameters|"Error or remembering only these two parameters"|
+|#1|Enter only two parameters|"Error or remembering only these two parameters"|"It is just impossible on a system level"|
 
 #### Set Method Transaction Name Function:
 
-|Test|Inputs|Expected Outcome|
-|----|------|----------------|
-|#1|Special Symbols|"Error or giving wrong symbols in output"|
+|Test|Inputs|Expected Outcome|Actual Outcome|
+|----|------|----------------|--------------|
+|#1|Special Symbols|"Error or giving wrong symbols in output"|"Simply sets a Transaction Name with those symbols"|
 
 #### Set Method Transaction Value Function:
 
-|Test|Inputs|Expected Outcome|
-|----|------|----------------|
-|#1|Enter less than 0.01 cent|"Error"|
+|Test|Inputs|Expected Outcome|Actual Outcome|
+|----|------|----------------|--------------|
+|#1|Enter less than 0.01 cent|"Error"|"Remembers this number(Must be fixed)"|
 
 #### Set Method Transaction Category Function:
 
