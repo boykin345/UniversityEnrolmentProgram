@@ -153,4 +153,3 @@ For the deadline date there was created milestone named as Version 1.0, it is an
 |#1|Enter each value, but skip name value, do the same thing with other values|"Error"|
 
 (Whole Test Plan was made by Mikhail Kolyakin)
-1
