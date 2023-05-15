@@ -10,7 +10,9 @@
 
 
 ## Team Management
-For the deadline date there was created milestone named as Version 1.0, it is an end version of repository with Test plan. There was 1 issue with main method of FBApp Main Class and 1 merge request with main branch. At the time i write this as before almost everything was done by one person. So, there was almost no divided work and organised meetings.
+For the deadline date there was created milestone named as Version 1.0, it is an end version of repository with Test plan. There was 1 issue with main method of FBApp Main Class and 1 merge request with main branch. At the time I write this as before almost everything was done by one person. So, there was almost no divided work and organised meetings.(27/04/2023)
+
+Finally, after Easter we had some 2 organised meetings and some divided work. There was two more merge requests and no issues.
 
 
 ## Test Plan
@@ -28,6 +30,8 @@ For the deadline date there was created milestone named as Version 1.0, it is an
 |Test|Inputs|Expected Outcome|Actual Outcome|
 |----|------|----------------|--------------|
 |#1|Special Symbols|Error or giving wrong symbols in output|Simply sets a Transaction Name with those symbols|
+|#2|Any 25 symbols|Error|Simply sets a Transaction Name with those symbols|
+
 
 #### Set Method Transaction Value Function:
 
@@ -37,27 +41,27 @@ For the deadline date there was created milestone named as Version 1.0, it is an
 
 #### Set Method Transaction Category Function:
 
-|Test|Inputs|Expected Outcome|
-|----|------|----------------|
-|#1|Enter less than 0|Error, asks to rewrite transaction price|
+|Test|Inputs|Expected Outcome|Actual Outcome|
+|----|------|----------------|--------------|
+|#1|Enter less than 0|Error, asks to rewrite transaction price|Simply just doesn't remember it|
 
 #### Get Method Transaction Time Function:
 
-|Test|Inputs|Expected Outcome|
-|----|------|----------------|
-|#1|Get time when it is a leap year|Giving another year at the output|
+|Test|Inputs|Expected Outcome|Actual Outcome|
+|----|------|----------------|--------------|
+|#1|Get time when it is a leap year|Giving another year at the output|Gives right date|
 
 #### isComplete() Function:
 
-|Test|Inputs|Expected Outcome|
-|----|------|----------------|
+|Test|Inputs|Expected Outcome|Actual Outcome|
+|----|------|----------------|--------------|
 |#1|Enter all three values(name,value,category)|Outputs that everything is fine|
 
 #### toString()	override Function:
 
-|Test|Inputs|Expected Outcome|
-|----|------|----------------|
-|#1|Enter all three values(name,value,category)|Converts every parameter to String variable type|
+|Test|Inputs|Expected Outcome|Actual Outcome|
+|----|------|----------------|--------------|
+|#1|Enter all three values(name,value,category)|Converts every parameter to String variable type|Works as planned|
 
 ### Category Class:
 
