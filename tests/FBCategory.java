@@ -24,6 +24,8 @@ public class FBCategoryTest {
         
         
     }
+    //test passed.
+    //test made by abdulaziz.
 	
 	@Test
 	public void addExpenseTest() {
@@ -44,7 +46,8 @@ public class FBCategoryTest {
         
         
     }
-	
+	//test passed
+    //test made by abdulaziz
 	
 	@Test
 	public void removeExpenseTest() {
@@ -64,7 +67,8 @@ public class FBCategoryTest {
         assertEquals( previousSpend.subtract(removingValue), category.CategorySpend());    
         
     }
-	
+	//test passed   
+    //test made by abdulaziz
 		
 	
 }
