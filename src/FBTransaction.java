@@ -1,8 +1,9 @@
+package Classes;
 import java.math.BigDecimal;
 import java.util.Date;
 
 public class FBTransaction {
-	private String transactionName;
+	String transactionName;
 	private BigDecimal transactionValue;
 	private int transactionCategory;
 	private Date transactionTime;
@@ -41,8 +42,13 @@ public class FBTransaction {
 	}
 
 	public void setTransactionName(String tName) {
-		if (tName != null) {
+		if (tName != null && tName.length() < 25)
+		{
 			transactionName = tName;
+		}
+		else
+		{
+			System.err.println("Name must be less than 25 symbols!");
 		}
 	}
 
