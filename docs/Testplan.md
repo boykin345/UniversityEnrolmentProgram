@@ -19,8 +19,8 @@ For the deadline date there was created milestone named as Version 1.0, it is an
 
 #### Main Constructor Function:
 
-|Test|Inputs|Expected Outcome|
-|----|------|----------------|
+|Test|Inputs|Expected Outcome|Actual Outcome|
+|----|------|----------------|--------------|
 |#1|Enter only two parameters|"Error or remembering only these two parameters"|
 
 #### Set Method Transaction Name Function:
