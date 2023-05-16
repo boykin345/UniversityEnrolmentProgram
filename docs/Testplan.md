@@ -71,11 +71,13 @@ Finally, after Easter we had some 2 organised meetings and some divided work. Th
 |----|------|----------------|
 |#1|Create it|Does all things that was stated in the ClassDesciptions|
 
+
 #### Main Constructor Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
 |#1|Takes a string|Creates a Category Name that was stated by User|
+
 
 #### Get Category Name Function:
 
@@ -83,17 +85,34 @@ Finally, after Easter we had some 2 organised meetings and some divided work. Th
 |----|------|----------------|
 |#1|Nothing|Return to the category name|
 
+
 #### Get Category Budget Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
 |#1|Nothing|Return to the category's budget|
 
-#### Set Category Spend Function:
+
+#### Get Category Spend Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
 |#1|Nothing|Return to the category's current spend|
+
+
+#### Set Category Name Function:
+
+|Test|Inputs|Expected Outcome|
+|----|------|----------------|
+|#1|String as a parameter|Sets the category budget if its not the Unknwon category|
+
+
+#### Set Category Budget Function:
+
+|Test|Inputs|Expected Outcome|
+|----|------|----------------|
+|#1|Flaot as a parameter|Sets the category budget|
+
 
 #### Add Expense function Function:
 
@@ -101,11 +120,34 @@ Finally, after Easter we had some 2 organised meetings and some divided work. Th
 |----|------|----------------|
 |#1|BigDecimal|adds it to the current total spend for the category|
 
+
 #### Remove Expense function Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
 |#1|BigDecimal|subtract it from the current total spend for the category|
+
+
+#### Reset Spend Total Function:
+
+|Test|Inputs|Expected Outcome|
+|----|------|----------------|
+|#1|Nothing|Sets the spend to 0 for a recount|
+
+
+#### Calculate remaining budget Function:
+
+|Test|Inputs|Expected Outcome|
+|----|------|----------------|
+|#1|Nothing|Returns the difference between given budget and the spend as a BigDecimal|
+
+
+#### toString() override:
+
+|Test|Inputs|Expected Outcome|
+|----|------|----------------|
+|#1|Nothing|Return the format in which the class should be printed|
+
 
 ### FBApp Main Class:
 
