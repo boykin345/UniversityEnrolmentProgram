@@ -55,7 +55,7 @@ Finally, after Easter we had some 2 organised meetings and some divided work. Th
 
 |Test|Inputs|Expected Outcome|Actual Outcome|
 |----|------|----------------|--------------|
-|#1|Enter all three values(name,value,category)|Outputs that everything is fine|
+|#1|Enter all three values(name,value,category)|Class was not even created, so after in FBTransaction class was created a method isComplete()|
 
 #### toString()	override Function:
 
