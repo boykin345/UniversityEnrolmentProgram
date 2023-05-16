@@ -30,7 +30,7 @@ Finally, after Easter we had some 2 organised meetings and some divided work. Th
 |Test|Inputs|Expected Outcome|Actual Outcome|
 |----|------|----------------|--------------|
 |#1|Special Symbols|Error or giving wrong symbols in output|Simply sets a Transaction Name with those symbols|
-|#2|Any 25 symbols|Error|Simply sets a Transaction Name with those symbols|
+|#2|Any 25 symbols|Error|Simply sets a Transaction Name with those symbols, so after was created a limitation that name could be only 25 symbols long or less|
 
 
 #### Set Method Transaction Value Function:
@@ -55,7 +55,7 @@ Finally, after Easter we had some 2 organised meetings and some divided work. Th
 
 |Test|Inputs|Expected Outcome|Actual Outcome|
 |----|------|----------------|--------------|
-|#1|Enter all three values(name,value,category)|Outputs that everything is fine|
+|#1|Enter all three values(name,value,category)|Outputs 1 if value and name are null, outputs 2 when only value is null, outputs 3 if only name is null, outputs 4 if there is nothing to set|Class was not even created, so after in FBTransaction class was created a method isComplete()|
 
 #### toString()	override Function:
 

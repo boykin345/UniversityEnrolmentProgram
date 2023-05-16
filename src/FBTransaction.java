@@ -72,6 +72,18 @@ public class FBTransaction {
 		}
 	}
 
+	public int isComplete()
+	{
+		if(transactionName == null && transactionValue == null)
+			return 1;
+		else if(transactionValue == null)
+			return 2;
+		else if(transactionName == null)
+			return 3;
+		else
+			return 4;
+	}
+
 	@Override
 	public String toString() {
 		return transactionName + " - £" + transactionValue.toString();
