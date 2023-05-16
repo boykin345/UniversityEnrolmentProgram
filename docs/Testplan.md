@@ -69,37 +69,37 @@ Finally, after Easter we had some 2 organised meetings and some divided work. Th
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|Create|Does all things that was stated in the ClassDesciptions|
+|#1|Create it|Does all things that was stated in the ClassDesciptions|
 
 #### Main Constructor Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|Create it|Creates a Category Name that was stated by User|
+|#1|Takes a string|Creates a Category Name that was stated by User|
 
 #### Set Category Name Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|Enter negative number|Error, asks to rewrite name or even remebers it|
+|#1|Nothing|Return to the category name|
 
 #### Set Category Budget Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|Enter an integer|Converts it to float number|
+|#1|Nothing|Return to the category's budget|
 
 #### Add Expense function Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|Enter a zero number|Adds it, but does not add any value to current total spend for the category|
+|#1|BigDecimal|adds it to the current total spend for the category|
 
 #### Remove Expense function Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|Enter a zero number|Error, asks to rewrite value|
+|#1|BigDecimal|subtract it from the current total spend for the category|
 
 ### FBApp Main Class:
 
