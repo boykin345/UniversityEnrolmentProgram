@@ -67,86 +67,86 @@ Finally, after Easter we had some 2 organised meetings and some divided work. Th
 
 #### Default Constructor Function:
 
-|Test|Inputs|Expected Outcome|
-|----|------|----------------|
-|#1|Create it|Does all things that was stated in the ClassDesciptions|
+|Test|Inputs|Expected Outcome|Actual Outcome|
+|----|------|----------------|--------------|
+|#1|Create it|Does all things that was stated in the ClassDesciptions|TEST Failed because category names should be created uniquely and both categories created had same name
 
 
 #### Main Constructor Function:
 
-|Test|Inputs|Expected Outcome|
-|----|------|----------------|
-|#1|Takes a string|Creates a Category Name that was stated by User|
+|Test|Inputs|Expected Outcome|Actual Outcome|
+|----|------|----------------|--------------|
+|#1|Takes a string|Creates a Category Name that was stated by User|Test Pass
 
 
 #### Get Category Name Function:
 
-|Test|Inputs|Expected Outcome|
-|----|------|----------------|
-|#1|Nothing|Return to the category name|
+|Test|Inputs|Expected Outcome|Actual Outcome|
+|----|------|----------------|--------------|
+|#1|Nothing|Return to the category name|Test Failed because it was allowed to set to unknown category
 
 
 #### Get Category Budget Function:
 
-|Test|Inputs|Expected Outcome|
-|----|------|----------------|
-|#1|Nothing|Return to the category's budget|
+|Test|Inputs|Expected Outcome|Actual Outcome|
+|----|------|----------------|--------------|
+|#1|Nothing|Return to the category's budget|Test Pass
 
 
 #### Get Category Spend Function:
 
-|Test|Inputs|Expected Outcome|
-|----|------|----------------|
-|#1|Nothing|Return to the category's current spend|
+|Test|Inputs|Expected Outcome|Actual Outcome|
+|----|------|----------------|--------------|
+|#1|Nothing|Return to the category's current spend|Test Pass
 
 
 #### Set Category Name Function:
 
-|Test|Inputs|Expected Outcome|
-|----|------|----------------|
-|#1|String as a parameter|Sets the category budget if its not the Unknwon category|
+|Test|Inputs|Expected Outcome|Actual Outcome|
+|----|------|----------------|--------------|
+|#1|String as a parameter|Sets the category budget if its not the Unknwon category|Test Pass
 
 
 #### Set Category Budget Function:
 
-|Test|Inputs|Expected Outcome|
-|----|------|----------------|
-|#1|Flaot as a parameter|Sets the category budget|
+|Test|Inputs|Expected Outcome|Actual Outcome|
+|----|------|----------------|--------------|
+|#1|Flaot as a parameter|Sets the category budget|Test Pass
 
 
 #### Add Expense function Function:
 
-|Test|Inputs|Expected Outcome|
-|----|------|----------------|
-|#1|BigDecimal|adds it to the current total spend for the category|
+|Test|Inputs|Expected Outcome|Actual Outcome|
+|----|------|----------------|--------------|
+|#1|BigDecimal|adds it to the current total spend for the category|Test Pass
 
 
 #### Remove Expense function Function:
 
-|Test|Inputs|Expected Outcome|
-|----|------|----------------|
-|#1|BigDecimal|subtract it from the current total spend for the category|
+|Test|Inputs|Expected Outcome|Actual Outcome|
+|----|------|----------------|--------------|
+|#1|BigDecimal|subtract it from the current total spend for the category|Test Pass
 
 
 #### Reset Spend Total Function:
 
-|Test|Inputs|Expected Outcome|
-|----|------|----------------|
-|#1|Nothing|Sets the spend to 0 for a recount|
+|Test|Inputs|Expected Outcome|Actual Outcome|
+|----|------|----------------|--------------|
+|#1|Nothing|Sets the spend to 0 for a recount|Test Pass
 
 
 #### Calculate remaining budget Function:
 
-|Test|Inputs|Expected Outcome|
-|----|------|----------------|
-|#1|Nothing|Returns the difference between given budget and the spend as a BigDecimal|
+|Test|Inputs|Expected Outcome|Actual Outcome|
+|----|------|----------------|--------------|
+|#1|Nothing|Returns the difference between given budget and the spend as a BigDecimal|Test Pass
 
 
 #### toString() override:
 
-|Test|Inputs|Expected Outcome|
-|----|------|----------------|
-|#1|Nothing|Return the format in which the class should be printed|
+|Test|Inputs|Expected Outcome|Actual Outcome|
+|----|------|----------------|--------------|
+|#1|Nothing|Return the format in which the class should be printed|Test Pass
 
 
 ### FBApp Main Class:
