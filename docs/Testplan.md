@@ -77,17 +77,23 @@ Finally, after Easter we had some 2 organised meetings and some divided work. Th
 |----|------|----------------|
 |#1|Takes a string|Creates a Category Name that was stated by User|
 
-#### Set Category Name Function:
+#### Get Category Name Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
 |#1|Nothing|Return to the category name|
 
-#### Set Category Budget Function:
+#### Get Category Budget Function:
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
 |#1|Nothing|Return to the category's budget|
+
+#### Set Category Spend Function:
+
+|Test|Inputs|Expected Outcome|
+|----|------|----------------|
+|#1|Nothing|Return to the category's current spend|
 
 #### Add Expense function Function:
 
