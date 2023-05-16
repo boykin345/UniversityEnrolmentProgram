@@ -204,4 +204,4 @@ Finally, after Easter we had some 2 organised meetings and some divided work. Th
 |----|------|----------------|
 |#1|Enter each value, but skip name value, do the same thing with other values|Error|
 
-(Mikhail Kolyakin have done the whole transaction tests alone, Omar Taher have done the first 3 tests in the Category class part and Abdulaziz Sarkhoh have done the other 9 tests in the Category class )
+(Mikhail Kolyakin have done the whole transaction tests alone, Omar Taher have done the first 3 tests in the Category class part and Abdulaziz Sarkhoh have done the other 9 tests in the Category class, and the test plan has been made by Mikhail Kolyakin, but edited and added on by Omar Taher and Abdulaziz Sarkoh )
