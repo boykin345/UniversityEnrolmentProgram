@@ -69,7 +69,7 @@ Finally, after Easter we had some 2 organised meetings and some divided work. Th
 
 |Test|Inputs|Expected Outcome|
 |----|------|----------------|
-|#1|Create it|Does all things that was stated in the ClassDesciptions|
+|#1|Create|Does all things that was stated in the ClassDesciptions|
 
 #### Main Constructor Function:
 
