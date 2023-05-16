@@ -68,15 +68,30 @@ public class FBTransactionTests {
 		FBTransaction obj = new FBTransaction();
 		obj.setTransactionName("Bill");
 		obj.setTransactionValue(new BigDecimal("0.01"));
-		obj.toString();
 		assertEquals("Bill - £0.01", obj.toString());
 		// test passed
 		// Made by Mikhail Kolyakin
-	}
+	}	
 
+	@Test
 	public void transactionConstructor() {
 		FBTransaction obj = new FBTransaction("Bill", new BigDecimal("0.01"),2);
 		// Probably, it's just impossible to enter only two attributes
 		// Made by Mikhail Kolyakin
+	}
+
+	@Test
+	public void transactionisComplete()
+	{
+		FBTransaction obj1 = new FBTransaction(null, new BigDecimal("0.01"),3);
+		assertEquals(3,obj1.isComplete());
+		FBTransaction obj2 = new FBTransaction("Bill", new BigDecimal("0.01"),3);
+		assertEquals(4,obj2.isComplete());
+		FBTransaction obj3 = new FBTransaction(null, null,3);
+		assertEquals(1,obj3.isComplete());
+		FBTransaction obj4 = new FBTransaction("Bill", null,3);
+		assertEquals(2,obj4.isComplete());
+		// Made by Mikhail Kolyakin
+		// Test passed as expected
 	}
 }
