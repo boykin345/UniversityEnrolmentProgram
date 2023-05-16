@@ -1,6 +1,7 @@
 package Classes;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 import java.math.BigDecimal;
 import java.util.Date;
@@ -30,7 +31,7 @@ public class FBTransactionTests {
 		FBTransaction obj = new FBTransaction();
 		
 		obj.setTransactionName("LLLLLLLLLLLLLLLLLLLLLLLLLLLLL");
-		assertEquals("LLLLLLLLLLLLLLLLLLLLLLLLLLLLL", obj.transactionName());
+		assertNotEquals("LLLLLLLLLLLLLLLLLLLLLLLLLLLLL", obj.transactionName());
 		// test failed successfully
 		// Made by Mikhail Kolyakin
 		
@@ -40,8 +41,8 @@ public class FBTransactionTests {
 	public void transactionCategoryTest() {
 		FBTransaction obj = new FBTransaction();
 		obj.setTransactionCategory(-1);
-		assertEquals(-1, obj.transactionCategory());
-		// Test failed as needed
+		assertNotEquals(-1, obj.transactionCategory());
+		// Test passed
 		// Made by Mikhail Kolyakin
 	}
 
