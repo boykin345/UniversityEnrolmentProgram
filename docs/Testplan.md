@@ -30,7 +30,7 @@ Finally, after Easter we had some 2 organised meetings and some divided work. Th
 |Test|Inputs|Expected Outcome|Actual Outcome|
 |----|------|----------------|--------------|
 |#1|Special Symbols|Error or giving wrong symbols in output|Simply sets a Transaction Name with those symbols|
-|#2|Any 25 symbols|Error|Simply sets a Transaction Name with those symbols|
+|#2|Any 25 symbols|Error|Simply sets a Transaction Name with those symbols, so after was created a limitation that name could be only 25 symbols long or less|
 
 
 #### Set Method Transaction Value Function:
